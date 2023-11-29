@@ -1,0 +1,454 @@
+:root {
+   /* TEXT AND BG COLORS */
+   --orange: #ff7b43;
+   --light-orange: #ff7c43;
+   --light-blue: #25a6e4;
+   --purple: #7560eb;
+   --footer-color: #f6f9ff;
+   --white: #fff;
+   --black: #000;
+   --dark-black: #1f202a;
+   --light-gray: #716c80;
+   --counter1-gradient: linear-gradient(to left, #5146ae, #7560eb);
+   --nav-gradient: linear-gradient(to right, #5146ae, #25a6e4);
+
+   --transition: all 0.3s ease-in-out;
+}
+
+
+@media (max-width: 1200px) {
+
+   /* CUSTOM CSS */
+   h1 {
+      font-size: 5rem;
+   }
+
+   img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+   }
+
+
+   /*COUNTER SECTION START */
+   .counter-content {
+      max-width: 45rem;
+      margin-bottom: 3rem;
+   }
+
+   /* PRICE SECTION START */
+   .price-card-thumb img {
+      width: 20rem;
+   }
+
+   /* SERVICE PAGE START */
+   .service-offer-body a  {
+      font-size: 2.2rem;
+   }
+
+}
+
+
+@media (max-width: 991px) {
+
+   /* CUSTOM CSS */
+
+   h2 {
+      font-size: 2.5rem;
+   }
+
+   h3 {
+      font-size: 3.5rem;
+   }
+
+   p {
+      font-size: 1.6rem;
+   }
+   /* CUSTOM SCROLL BAR */
+::-webkit-scrollbar {
+   width: auto;
+}
+
+
+   /* NAVBAR SECTION START */
+
+   nav {
+      padding-block: 1rem;
+   }
+
+   .nav-links ul .link {
+      margin: 1rem 0rem 1rem 1rem;
+   }
+
+   .nav-links ul .link a {
+      color: var(--black);
+   }
+
+   .nav-links ul .link a:hover {
+      color: var(--orange);
+   }
+
+   .nav-links {
+      position: absolute;
+      top: 7rem;
+      left: 0%;
+      width: 0rem;
+      height: 100vh;
+      background-color: var(--white);
+      border-top: 0.4rem solid var(--orange);
+      overflow-x: hidden;
+      z-index: 1000;
+      box-shadow: 0.1rem 0.4rem 0.5rem rgb(0 0 0 / 10%);
+      transition: var(--transition);
+   }
+
+   .nav-links.active {
+      width: 30rem;
+   }
+
+   .nav-links ul .link {
+      width: 100%;
+      margin: 1rem 2rem;
+   }
+
+   /* HERO SECTION START */
+   .hero-section {
+      min-height: auto;
+      padding-block: 5rem;
+   }
+
+   .hero-content h1 {
+      padding-top: 0rem;
+   }
+
+   /* ANIMATION PARTICLES */
+   .particle-one,
+   .particle-two,
+   .particle-three,
+   .green-particle {
+      display: none;
+   }
+
+
+   /* SERVICE SECTION START */
+   .service-image img {
+      width: 100%;
+   }
+
+   .service-inner-image img {
+      width: 6rem;
+      height: auto;
+   }
+
+   .service-inner-content a {
+      font-size: 2.2rem;
+   }
+
+   /*COUNTER SECTION START */
+   .counter-content {
+      max-width: 100%;
+      margin-bottom: 3rem;
+   }
+
+
+   /* DECISION SECTION START */
+   .decision-content {
+      padding-left: 0rem;
+   }
+
+   .decision-content .text {
+      margin-bottom: 2.5rem;
+
+   }
+
+   /*DOWNLOAD SECTION START  */
+   .left-thumb img,
+   .right-thumb img {
+      width: 30%;
+      height: auto;
+   }
+
+   .right-thumb {
+      top: 10%;
+   }
+
+
+   /* ---------------------------------------------------------------------
+   ABOUT PAGE START
+-------------------------------------------------------------------*/
+.about-hero,
+.team-section,
+.service-hero-section , 
+.pricing-hero-section{
+      background-size: 60%;
+      background-position: 150%;
+   }
+
+
+   /* ---------------------------------------------------------------------
+   SERVICE OFFER PAGE START
+-------------------------------------------------------------------*/
+   .service-offer {
+      padding: 3rem 2rem;
+   }
+
+
+      /* ---------------------------------------------------------------------
+   PRICING  PAGE START
+-------------------------------------------------------------------*/
+.table-section {
+   width: 100%;
+   overflow-x: scroll;
+}
+
+
+}
+
+
+@media (max-width: 768px) {
+
+   /* CUSTOM CSS */
+   h1 {
+      font-size: 4rem;
+   }
+
+   h2 {
+      font-size: 2rem;
+   }
+
+   h4 {
+      font-size: 2rem;
+   }
+
+   .section-padding {
+      padding-block: 6rem;
+   }
+
+   .p-20 {
+      font-size: 2rem;
+      margin: 2rem 0 3rem;
+   }
+
+
+   /* NAAVBAR SECTION START */
+   .nav-logo img {
+      width: 12rem;
+   }
+
+   .nav-links {
+      top: 6rem;
+   }
+
+
+   /* COUNTER SECTION START */
+   .counting ul {
+      margin-top: 4rem;
+   }
+
+   .counting ul li .counter {
+      margin: 0rem 2rem 2rem 0rem;
+      /* padding: 1.5rem;
+      width: 10rem;
+      height: auto; */
+   }
+
+   .counting ul li .counter span {
+      font-size: 3rem;
+   }
+
+   .counter-content p {
+      font-size: 1.5rem;
+   }
+
+   /* PRICE SECTION START */
+   .price-card-thumb img {
+      width: 15rem;
+   }
+
+
+
+   /* ---------------------------------------------------------------------
+   ABOUT PAGE START
+-------------------------------------------------------------------*/
+   .service-card {
+      padding: 3.5rem 1rem;
+   }
+
+   .service-body a {
+      font-size: 1.8rem;
+   }
+
+   .service-body p {
+      font-size: 1.4rem;
+   }
+
+
+   /* ---------------------------------------------------------------------
+   ABOUT PAGE START
+-------------------------------------------------------------------*/
+.about-hero,
+.team-section,
+.service-hero-section , 
+.pricing-hero-section {
+      background-image: none;
+   }
+
+
+   /* ---------------------------------------------------------------------
+TEAM  PAGE START
+-------------------------------------------------------------------*/
+   .team-card {
+      padding: 3.5rem 1rem;
+   }
+
+   .team-card .team-img {
+      width: 18rem;
+   }
+
+   /* ---------------------------------------------------------------------
+   SERVICE OFFER PAGE START
+-------------------------------------------------------------------*/
+   .service-offer {
+      padding: 2rem 1rem;
+   }
+
+   .service-offer img {
+      width: 6rem;
+   }
+
+ .service-offer-body {
+   margin-top: 2rem;
+ }
+
+ .service-offer-body a  {
+   font-size: 1.8rem;
+ }
+
+}
+
+
+
+@media (max-width: 572px) {
+
+   /*CUSTOM CSS */
+   h1 {
+      font-size: 2.8rem;
+   }
+
+   h3 {
+      font-size: 2.5rem;
+   }
+
+   .p-20 {
+      font-size: 1.8rem;
+   }
+
+   .btn-primary,
+   .btn-secondary {
+      padding: 1rem 2rem;
+      font-size: 1.4rem;
+   }
+
+   /* NAV SECTION START */
+
+   .nav-links.active {
+      width: 100%;
+   }
+
+   /* HERO SECTION START */
+   .hero-section::after {
+      display: none;
+   }
+
+   /* SERVICE SECTION START */
+   .service-content h3 {
+      margin-bottom: 2rem;
+   }
+
+   .service-inner-image img {
+      width: 8rem;
+      height: auto;
+   }
+
+   /* DOWNLOAD SECTION START */
+   .btn-primary img,
+   .btn-secondary img {
+      width: 3rem;
+   }
+
+   .play-btn,
+   .apple-btn {
+      width: 100%;
+   }
+
+   /*TESTMONIAL SECTION START */
+   .carousel-control-prev {
+      /* display: none; */
+      left: 0%;
+   }
+
+   .carousel-control-next {
+      left: 12%;
+      /* display: none; */
+   }
+
+
+   /* SUBFOOTER SECTION START */
+   .subfooter p {
+      font-size: 1.2rem;
+   }
+
+   .subfooter p span {
+      font-size: 1.2rem;
+   }
+
+
+
+   /* ---------------------------------------------------------------------
+  SERVICE PAGE START
+-------------------------------------------------------------------*/
+   .team-card {
+      padding: 2rem 0.5rem;
+   }
+
+   .team-card .team-img {
+      width: 10rem;
+   }
+
+   .team-card a {
+      font-size: 1.6rem;
+   }
+
+   .team-card p {
+      font-size: 1.2rem;
+   }
+
+   .team-icons i {
+      font-size: 1.2rem;
+   }
+
+   /* --------------------------------------------------------------------
+      PRICING SECTION START
+   --------------------------------------------------------------------*/
+   .price-section {
+      font-size  : 1.6rem;
+      font-weight: bold;
+      margin-bottom: 1.5rem;
+   }
+
+   .price-list {
+      margin-top: 2rem;
+   }
+   
+   .table thead , tbody {
+      font-size: 1.5rem;
+   }
+
+   .table>:not(caption)>*>* {
+   padding:  1rem;
+}
+tbody tr td:nth-child(1) {
+   width: 40%;
+}
+
+}
